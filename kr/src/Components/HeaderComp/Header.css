@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+.Header_div{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    justify-content: space-around;
+}
+.headerName{
+    margin-left:10% ;
+}

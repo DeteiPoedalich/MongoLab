@@ -1,0 +1,32 @@
+.HeroByAttribute{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    width: 47%;
+}
+@media (max-width: 530px) {
+    .HeroByAttribute{
+        width: 90%; /* На средних экранах элементы будут занимать половину ширины */
+    }
+}
+
+
+.Attribute{
+    display: flex;
+    align-items: center;
+}
+.Attribute p{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 0.5em;
+}
+.Attribute img{
+    width: auto;
+    height: 45%;
+}
+.Heroes{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,15 @@
+#root{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+header{
+  height: 90px;
+}
+footer{
+  width: 100%;
+}
+body{
+  height: 100vh;
+}

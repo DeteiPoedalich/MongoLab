@@ -1,0 +1,11 @@
+.ItemsForBuild{
+    display: flex;
+    gap:1em;
+    flex-wrap: wrap;
+    width: auto;
+}
+@media (max-width: 700px) {
+    .ItemsForBuild{
+        width: 90%;
+    }
+}

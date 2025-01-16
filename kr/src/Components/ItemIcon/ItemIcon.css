@@ -1,0 +1,39 @@
+.ItemIcon{
+    background-color: brown;
+    width: 55px;
+    height: 41px;
+    margin: 6px 3px 0 3px;
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+.OnHover{
+    position: absolute;
+    background-color:rgb(83, 83, 83) ;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+.Hover{
+    display: flex;
+    flex-direction: row;
+    gap:1em;
+    
+    border-bottom: 1px solid rgb(22, 22, 22)
+}
+.HoverImg{
+    width: 55px;
+    height: 41px;
+    margin: 10px 0 0 10px
+}
+.Hover-description{
+    background-color:rgb(22, 22, 22) ;
+}
+.Hover-description p{
+    padding-left: 10px;
+}
+.HoverImgSkill{
+    width: 80px;
+    height: 80px;
+}

@@ -1,0 +1,35 @@
+.Facets{
+    display: flex;
+    gap:2%;
+    margin-left: 2%;
+    width: 80%;
+}
+.facet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:-webkit-fill-available;
+    height: 5em;
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight:600;
+    color: white;
+}
+.facet h3{
+    margin: 0;
+}
+.hujiokp{
+    width:-webkit-fill-available;
+}
+.OnHover{
+    width: 22.1em
+}
+@media (max-width: 680px) {
+    .Facets{
+        justify-content: center;
+        width: 95%;
+        gap:0.5em;  
+        flex-wrap: wrap; /* На средних экранах элементы будут занимать половину ширины */
+    }
+}

@@ -1,0 +1,54 @@
+.ItemPanel {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    width: 30%;
+    height: auto;
+    align-items: center;
+}
+
+/* Для маленьких экранов (до 600px) */
+@media (max-width: 600px) {
+    .ItemPanel {
+        width: 90%; /* Увеличиваем ширину, чтобы занимало почти весь экран */
+        margin: 5%; /* Добавляем отступы, чтобы элементы не прилегали к краям */
+    }
+}
+
+/* Для средних экранов (от 600px до 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .ItemPanel {
+        width: 45%; /* Уменьшаем ширину для средней плотности */
+        margin: 2%; /* Слегка уменьшаем отступы */
+    }
+}
+
+/* Для больших экранов (от 1025px и выше) */
+@media (min-width: 1025px) {
+    .ItemPanel {
+        width: 30%; /* Оставляем изначальную ширину */
+        margin: 1%; /* Сохраняем исходные отступы */
+    }
+}
+
+.ItemGroups{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.Attribute p{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 0.5em;
+}
+.Attribute img{
+    width: auto;
+    height: 45%;
+}
+.Heroes{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}

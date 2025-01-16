@@ -1,0 +1,116 @@
+.HeroName{
+    font-size: 72px;
+    font-weight:600;
+    color: white;
+    margin: 0 0 0 5%;
+}
+.pupup{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    width:50%;
+    margin-left: 5em;
+}
+.AttributeImg{
+    height: 3em;
+    width:  3em;
+}
+.difficulty{
+    display: flex;
+}
+.difficulty img{
+    height: 30%;
+    width: 30%;
+}
+.attacktype{
+    display: flex;
+    align-items: center;
+    gap:5%;
+    width: 40%;
+}
+.attacktype img{
+    height: 2em;
+    width:  2em;
+}
+.HeroIcons{
+    display: flex;
+    align-items: center;
+    gap:0.5%;
+    margin-left: 0.5em;
+}
+.HeroInfo{
+    display: flex;
+}
+.HeroStats{
+    display: flex;
+    margin-top: 5em;
+    width: 50%;
+}
+.HeroById{
+    margin-top: 1%;
+}
+.stat{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.stat img{
+    height: 2em;
+    width:  2em;
+}
+.stat p{
+    font-size: 24px;
+    font-weight:600;
+    color: white;
+    margin: 0;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    padding: 0.5em 2em 2em 0;
+    border-bottom: 1px solid rgb(92, 0, 0);
+    border-top: 1px solid rgb(92, 0, 0);
+}
+.statname{
+    font-size: 12px;
+    margin:0 0 0.3em 0.2em ;
+}
+.HealthBar{
+    background-color: rgb(18, 158, 0);
+    width: 50%;
+    height: 15%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.HealthBar p{
+    margin: 0;
+}
+.healttext{
+    margin:0 0 0.3em 0;
+}
+.ManaBar{
+    background-color: rgb(3, 0, 158);
+    width: 50%;
+    height: 15%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ManaBar p{
+    margin: 0;
+}
+.healthnmana{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-top: 1px solid rgb(92, 0, 0);
+    border-bottom: 1px solid rgb(92, 0, 0);
+    border-left: 1px solid rgb(92, 0, 0);
+}

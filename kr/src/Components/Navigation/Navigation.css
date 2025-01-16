@@ -1,0 +1,26 @@
+.Navigation {
+    display: flex;
+    justify-content: center; /* Центровка всех элементов */
+    flex-wrap: wrap; /* Позволяет кнопкам переноситься, если они не помещаются */
+    width: 100%;
+    gap:10px;
+}
+
+.navbut {
+    flex: 1 1 auto; /* Делает кнопки гибкими */
+    margin: 0 1%;
+    border: 1px solid red;
+    border-radius: 5px;
+    max-width: 20rem; /* Ограничиваем максимальную ширину */
+    min-width: 18rem; /* Ограничиваем минимальную ширину */
+    height: 50px;
+    box-shadow: -1px -1px 10px 10px rgba(165, 0, 0, 0.2);
+}
+
+.navbut1 {
+    width: 100%;
+}
+
+.LinkMar {
+    margin: 0 1%;
+}

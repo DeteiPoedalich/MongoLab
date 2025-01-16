@@ -1,0 +1,50 @@
+.GetStarted {
+    width: 30%;
+    margin: 10em 0 0 10em;
+    transition: all 0.3s ease; /* Плавный переход изменений */
+}
+
+@media (max-width: 1200px) {
+    .GetStarted {
+        width: 40%; /* Увеличиваем ширину */
+        margin: 8em 0 0 8em; /* Уменьшаем отступ */
+    }
+}
+
+@media (max-width: 768px) {
+    .GetStarted {
+        width: 50%; /* Еще больше увеличиваем ширину */
+        margin: 5em 0 0 5em; /* Еще больше уменьшаем отступ */
+    }
+}
+
+@media (max-width: 480px) {
+    .GetStarted {
+        width: 80%; /* Почти на весь экран */
+        margin: 1em auto 0 auto; /* Центрируем элемент */
+    }
+}
+.GetStartedBut{
+    border: 1px solid red;
+    box-shadow: -1px -1px 10px 10px rgba(165, 0, 0, 0.2);
+    width: 10em;
+    border-radius: 7px;
+}
+.GetStartedBut1{
+    width: 100%;
+}
+.GetStartedName{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 0 0 1em 0;
+}
+.GetStartedText{
+    font-size: 20px;
+    font-weight:400;
+    margin: 0 0 1em 0;
+    color: white;
+}
+.LinkStart Link{
+    width: 50%;
+}

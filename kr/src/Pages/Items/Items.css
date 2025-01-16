@@ -1,0 +1,10 @@
+.AllItems{
+    display: flex;
+    flex-direction: column;
+}
+.Panels{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}

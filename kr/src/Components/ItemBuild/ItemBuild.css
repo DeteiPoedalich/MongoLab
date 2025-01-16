@@ -1,0 +1,4 @@
+.ItemBuild{
+    display: flex;
+    flex-wrap: wrap;
+}
